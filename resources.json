@@ -9202,7 +9202,7 @@
       "title": "Ottawa Construction Association: employment opportunities",
       "url": "https://oca.ca/find-jobs/",
       "description": "OCA's job board for Ottawa construction companies. The companion page lets job seekers post a short profile that members can see.",
-      "track": "CM",
+      "track": "Both",
       "stages": [
         1,
         2
@@ -9234,7 +9234,16 @@
           "Ottawa"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "links": [
+          [
+            "Student program / posting",
+            "https://oca.ca/"
+          ]
+        ],
+        "city": "Ottawa",
+        "fit": "Industry association",
+        "pay": "Confirm"
       }
     },
     {
@@ -9594,12 +9603,31 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
-          "National",
           "Ottawa",
-          "Toronto/GTA"
+          "Toronto/GTA",
+          "National"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "links": [
+          [
+            "Student program / posting",
+            "https://careers.pcl.com/job/Ottawa-Estimating-Student-ON/1425617200/"
+          ]
+        ],
+        "city": "Ottawa",
+        "fit": "General contractor / CM · Ottawa district, Canadian Buildings",
+        "pay": "Paid",
+        "pay_src": [
+          "Posting lists an estimated $21.25–$30.00/hr (Ottawa Estimating Student)",
+          "https://careers.pcl.com/job/Ottawa-Estimating-Student-ON/1425617200/"
+        ],
+        "window": {
+          "kind": "window",
+          "date": "2027-01",
+          "label": "Estimating Student posting: 4 months starting January 2027 (no closing date shown)",
+          "src": "https://careers.pcl.com/job/Ottawa-Estimating-Student-ON/1425617200/"
+        }
       }
     },
     {
@@ -9636,12 +9664,21 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
-          "National",
           "Ottawa",
-          "Toronto/GTA"
+          "Toronto/GTA",
+          "National"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "links": [
+          [
+            "Student program / posting",
+            "https://www.ellisdon.com/students"
+          ]
+        ],
+        "city": "Ottawa",
+        "fit": "General contractor / CM · Ottawa office; HQ Mississauga",
+        "pay": "Confirm"
       }
     },
     {
@@ -9678,13 +9715,22 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
-          "National",
           "Ottawa",
           "Toronto/GTA",
-          "Montreal/Quebec"
+          "Montreal/Quebec",
+          "National"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "city": "Toronto",
+        "fit": "General contractor · Mississauga / GTA; offices across Canada",
+        "pay": "Confirm",
+        "window": {
+          "kind": "window",
+          "date": "2027-01",
+          "label": "January work terms are posted in September; interviews in October (no closing date shown)",
+          "src": "https://www.bird.ca/campus/"
+        }
       }
     },
     {
@@ -9721,12 +9767,19 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
-          "Montreal/Quebec",
           "Ottawa",
-          "Toronto/GTA"
+          "Toronto/GTA",
+          "Montreal/Quebec"
         ],
         "lang": "EN/FR",
-        "note": ""
+        "note": "",
+        "city": "Ottawa",
+        "fit": "General contractor / CM · Ottawa and national",
+        "pay": "Paid",
+        "pay_src": [
+          "Program page: \"All internships are paid\"",
+          "https://pomerleau.ca/en/internship-program"
+        ]
       }
     },
     {
@@ -9763,11 +9816,14 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
-          "National",
-          "Toronto/GTA"
+          "Toronto/GTA",
+          "National"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "city": "Toronto",
+        "fit": "General contractor · Mississauga",
+        "pay": "Confirm"
       }
     },
     {
@@ -9804,13 +9860,32 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
-          "National",
-          "Toronto/GTA",
           "Ottawa",
-          "Montreal/Quebec"
+          "Toronto/GTA",
+          "Montreal/Quebec",
+          "National"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "links": [
+          [
+            "Student program / posting",
+            "https://www.aecon.com/co-op-program"
+          ]
+        ],
+        "city": "Toronto",
+        "fit": "General contractor / CM · Toronto, Pickering, and national",
+        "pay": "Paid",
+        "pay_src": [
+          "EHS co-op posting lists $46,000–$48,000/yr",
+          "https://jobs.aecon.com/job/Toronto-Co-op%2C-Environment-Health-&-Safety-ON/606284217/"
+        ],
+        "window": {
+          "kind": "window",
+          "date": "2027-01",
+          "label": "EHS co-op posted Sep 21, 2026: 4 months starting January 2027 (no closing date shown)",
+          "src": "https://jobs.aecon.com/job/Toronto-Co-op%2C-Environment-Health-&-Safety-ON/606284217/"
+        }
       }
     },
     {
@@ -9852,7 +9927,10 @@
           "National"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Project / construction management consultancy · Offices include Ottawa and Toronto",
+        "pay": "Confirm"
       }
     },
     {
@@ -9892,7 +9970,14 @@
           "Montreal/Quebec"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "city": "Montreal",
+        "fit": "General contractor · Montreal, Brossard, Mississauga, Quebec City",
+        "pay": "Paid",
+        "pay_src": [
+          "Internship page: $19.87–$26.95/hr depending on year of study",
+          "https://www.ebcinc.com/en/job/internship-opportunities-at-ebc/"
+        ]
       }
     },
     {
@@ -9932,7 +10017,10 @@
           "Ottawa"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Municipal government",
+        "pay": "Confirm"
       }
     },
     {
@@ -9969,18 +10057,27 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
-          "National",
-          "Ottawa"
+          "Ottawa",
+          "National"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "links": [
+          [
+            "Student program / posting",
+            "https://emploisfp-psjobs.cfp-psc.gc.ca/srs-sre/page01.html?lang=en"
+          ]
+        ],
+        "city": "Ottawa",
+        "fit": "Federal government · National inventory; many Ottawa HQ jobs",
+        "pay": "Confirm"
       }
     },
     {
       "id": "p039",
       "title": "Ontario Public Service summer jobs",
       "url": "https://www.ontario.ca/page/careers-summer-employment-opportunities",
-      "description": "Paid summer jobs for students in the Ontario Public Service. The 2026 ads have closed; summer 2027 jobs will be posted in fall/winter, so sign up for job alerts now.",
+      "description": "Summer jobs for students in the Ontario Public Service. The 2026 ads have closed; summer 2027 jobs will be posted in fall/winter, so sign up for job alerts now.",
       "track": "Both",
       "stages": [
         1,
@@ -10010,10 +10107,20 @@
       "placement": {
         "cat": "Employers hiring students",
         "region": [
+          "Toronto/GTA",
           "Province-wide"
         ],
         "lang": "EN",
-        "note": ""
+        "note": "",
+        "links": [
+          [
+            "Student program / posting",
+            "https://www.ontario.ca/page/careers-student-and-new-professionals"
+          ]
+        ],
+        "city": "Toronto",
+        "fit": "Provincial government · Toronto and province-wide",
+        "pay": "Confirm"
       }
     },
     {
@@ -10586,6 +10693,2119 @@
         ],
         "lang": "EN",
         "note": ""
+      }
+    },
+    {
+      "id": "e001",
+      "title": "Defence Construction Canada",
+      "url": "https://www.dcc-cdc.gc.ca/careers/student-opportunities",
+      "description": "Has a dedicated Student Opportunities page; runs DND construction, including site safety.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Defence Construction Canada",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Federal Crown corp (construction & contract mgmt) · HQ Ottawa; sites across Canada",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e002",
+      "title": "Tomlinson Group",
+      "url": "https://tomlinsongroup.com/careers",
+      "description": "Hires summer students (2026 postings); COR-certified divisions.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Tomlinson Group",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Reachable (bot protection)",
+        "method": "Loaded in a real browser or independent fetcher on 2026-09-28/29; plain curl is bot-blocked",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Heavy civil / environmental / aggregates · HQ Ottawa",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e003",
+      "title": "Canadian Nuclear Laboratories",
+      "url": "https://www.cnl.ca/about-cnl/student-careers/",
+      "description": "Formal Student Careers program (co-op, summer).",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Canadian Nuclear Laboratories",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Nuclear / industrial lab · Chalk River (~2 hrs from Ottawa)",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e004",
+      "title": "Hydro Ottawa",
+      "url": "https://www.hydroottawa.com/en/about-us/careers",
+      "description": "Careers page has a 'Co-ops/internships' section and student opportunities.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Hydro Ottawa",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Utility",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e005",
+      "title": "Royal Canadian Mint",
+      "url": "https://www.mint.ca/en/people/careers",
+      "description": "Hires summer manufacturing students and HR students at the Ottawa plant.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Royal Canadian Mint",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Manufacturing (Crown corp) · Ottawa plant",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e006",
+      "title": "Chandos Construction (Ottawa office)",
+      "url": "https://www.chandos.com/join-our-team/",
+      "description": "Student programs including co-ops and internships.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Chandos Construction (Ottawa office)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "General contractor",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e007",
+      "title": "M. Sullivan & Son",
+      "url": "https://www.sullivan.ca/careers/",
+      "description": "Careers page features staff who started as summer students; co-op postings (IT).",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "M. Sullivan & Son",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "General contractor · HQ Arnprior; Ottawa-area projects",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e008",
+      "title": "Mattamy Homes (Ottawa division)",
+      "url": "https://mattamyhomes.com/about/careers/early-careers",
+      "description": "Co-ops and internships page; hires co-ops for land development and more.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Mattamy Homes (Ottawa division)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Builder / land developer · Ottawa division; also GTA",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e009",
+      "title": "Minto Group",
+      "url": "https://www.minto.com/minto-hr/Early-Careers~1728.html",
+      "description": "Early Careers program: summer students, co-op placements, internships.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Minto Group",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Builder / developer · HQ Ottawa; also Toronto",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e010",
+      "title": "Taggart Construction / Taggart Group",
+      "url": "https://www.taggartconstruction.com/careers/",
+      "description": "Has hosted summer interns and co-ops; large Ottawa GC.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Taggart Construction / Taggart Group",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Reachable (bot protection)",
+        "method": "Loaded in a real browser or independent fetcher on 2026-09-28/29; plain curl is bot-blocked",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "General contractor / builder · HQ Ottawa; Kingston",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e011",
+      "title": "Carleton University – Environmental Health & Safety",
+      "url": "https://carleton.ca/ehs/",
+      "description": "In-house EHS department.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Carleton University – Environmental Health & Safety",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "University EHS",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e012",
+      "title": "Ottawa Safety Council",
+      "url": "https://www.ottawasafetycouncil.ca/employment-opportunities/",
+      "description": "Local safety education and training provider (road, motorcycle, crossing guards).",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Ottawa Safety Council",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Safety training / education nonprofit",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e013",
+      "title": "Paterson Group",
+      "url": "https://patersongroup.ca/engineering-job/",
+      "description": "Hires summer students and interns; field and site-safety exposure.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Paterson Group",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Geotechnical / environmental engineering · HQ Ottawa; GTA branch",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e014",
+      "title": "Pinchin Ltd. (Ottawa office)",
+      "url": "https://www.pinchin.com/careers",
+      "description": "National EHS and hazmat consultancy with an Ottawa office.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Pinchin Ltd. (Ottawa office)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "EHS / occupational hygiene consulting · Ottawa office; national",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e015",
+      "title": "The Ottawa Hospital",
+      "url": "https://www.ottawahospital.on.ca/en/join-us/career-opportunities",
+      "description": "Large employer with an internal OHS/wellness function; hires summer students.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "The Ottawa Hospital",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Hospital · Ottawa (multiple campuses)",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e016",
+      "title": "University of Ottawa – Health, Safety & Environmental Mgmt (Office of the Chief Risk Officer)",
+      "url": "https://www.uottawa.ca/about-us/administration-services/office-chief-risk-officer/health-safety-environmental-management",
+      "description": "In-house OHS and environmental management team.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "University of Ottawa – Health, Safety & Environmental Mgmt (Office of the Chief Risk Officer)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "University EHS",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e017",
+      "title": "DILFO Mechanical",
+      "url": "https://www.dilfo.com/career/",
+      "description": "Hires co-op students (VDC co-op); Ottawa Top Places to Work.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "DILFO Mechanical",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Reachable (bot protection)",
+        "method": "Loaded in a real browser or independent fetcher on 2026-09-28/29; plain curl is bot-blocked",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Mechanical contractor",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e018",
+      "title": "Claridge Homes",
+      "url": "https://www.claridgehomes.com/careers/",
+      "description": "Ottawa builder; careers page mentions tuition reimbursement; no student program published.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Claridge Homes",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Builder / developer",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e019",
+      "title": "Richcraft Homes",
+      "url": "https://www.richcraft.com/apply/",
+      "description": "Ottawa builder that hires entry-level construction roles; no student program published.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Richcraft Homes",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Builder",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e020",
+      "title": "Tamarack Homes",
+      "url": "https://tamarackhomes.com/careers/",
+      "description": "Ottawa builder with a careers page; no student program published.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Tamarack Homes",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Reachable (bot protection)",
+        "method": "Loaded in a real browser or independent fetcher on 2026-09-28/29; plain curl is bot-blocked",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Builder",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e021",
+      "title": "Urbandale Construction",
+      "url": "https://urbandale.com/careers/",
+      "description": "Ottawa builder; careers page currently lists sales roles only.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Urbandale Construction",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Ottawa",
+        "fit": "Builder",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e022",
+      "title": "City of Mississauga",
+      "url": "https://jobs.mississauga.ca/",
+      "description": "Co-op and internship programs (Co-op/Intern job category).",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "City of Mississauga",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Municipal government · Mississauga",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e023",
+      "title": "City of Toronto",
+      "url": "https://jobs.toronto.ca/jobsatcity/",
+      "description": "Big municipal employer; student and co-op roles posted on its jobs portal.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "City of Toronto",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Municipal government",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e024",
+      "title": "EXP Services",
+      "url": "https://www.exp.com/careers/students-recent-graduates/",
+      "description": "'Students + Recent Graduates' program.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "EXP Services",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Engineering / EHS consulting · HQ Brampton; Ottawa office too",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e025",
+      "title": "Magna International (GTA plants)",
+      "url": "https://www.magna.com/careers/students",
+      "description": "HSE co-op / student roles posted at GTA plants.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Magna International (GTA plants)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Auto parts manufacturing · Brampton, Woodbridge, and other GTA plants",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e026",
+      "title": "Maple Leaf Foods",
+      "url": "https://www.mapleleaffoods.com/careers/career-development/co-op-program/",
+      "description": "Co-op program with 3 intakes a year; OHS summer-student roles at plants.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Maple Leaf Foods",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Food manufacturing · HQ Mississauga; plants in Ontario",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e027",
+      "title": "Metrolinx",
+      "url": "https://www.metrolinx.com/en/projects-and-programs/metrolinx-youth",
+      "description": "Early-talent programs: summer students and co-ops, including safety and health & wellness.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Metrolinx",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Transit agency · Toronto / GTA",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e028",
+      "title": "Ontario Power Generation",
+      "url": "https://jobs.opg.com/go/Our-Students-&-New-Grads/2626017/",
+      "description": "Students & New Grads program; EHS co-op postings.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Ontario Power Generation",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Utility (nuclear, hydro) · Pickering / Durham Region",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e029",
+      "title": "Toronto Hydro",
+      "url": "https://www.torontohydro.com/careers",
+      "description": "Co-op students (4-16 months) in many departments, including EHS; Students section on careers page.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Toronto Hydro",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Utility",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e030",
+      "title": "Workplace Safety & Prevention Services (WSPS)",
+      "url": "https://www.wsps.ca/about-us/working-at-wsps/employment-opportunities",
+      "description": "Hosted 12 students in 2026, including Health & Safety and Occupational Hygiene.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Workplace Safety & Prevention Services (WSPS)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Safety association / training · HQ Mississauga; offices across Ontario",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e031",
+      "title": "IHSA – Infrastructure Health & Safety Association",
+      "url": "https://www.ihsa.ca/Careers/Job-Postings.aspx",
+      "description": "Ontario's construction H&S association; posts job openings.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "IHSA – Infrastructure Health & Safety Association",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Construction safety association · HQ Mississauga; offices across Ontario",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e032",
+      "title": "Ontario General Contractors Association",
+      "url": "https://ogca.ca/2026/08/glip-resume-book-2026/",
+      "description": "Runs the General's Lab Innovation Program (GLIP), which links post-secondary students with contractors.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Ontario General Contractors Association",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Industry association · Mississauga",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e033",
+      "title": "Toronto Construction Association",
+      "url": "https://www.tcaconnect.com/",
+      "description": "Runs the TCIC Student Bid Competition; member network for placement referrals.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Toronto Construction Association",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Industry association",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e034",
+      "title": "Public Services Health & Safety Association (PSHSA)",
+      "url": "https://www.pshsa.ca/careers",
+      "description": "Public-sector H&S association; hires consultants and trainers (some remote).",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Public Services Health & Safety Association (PSHSA)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Reachable (bot protection)",
+        "method": "Loaded in a real browser or independent fetcher on 2026-09-28/29; plain curl is bot-blocked",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Safety association · Toronto; remote across Ontario",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e035",
+      "title": "University of Toronto – Environmental Health & Safety",
+      "url": "https://ehs.utoronto.ca/",
+      "description": "Large in-house EHS office.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "University of Toronto – Environmental Health & Safety",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "University EHS",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e036",
+      "title": "Workers Health & Safety Centre (WHSC)",
+      "url": "https://www.whsc.on.ca",
+      "description": "Ontario's designated worker H&S training centre.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Workers Health & Safety Centre (WHSC)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Safety training provider · Toronto; offices across Ontario",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e037",
+      "title": "Eastern Construction",
+      "url": "https://www.easternconstruction.com/careers",
+      "description": "Recruits co-ops and new grads at U of T and York career fairs.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Eastern Construction",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "General contractor / CM",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e038",
+      "title": "Ledcor (Toronto)",
+      "url": "https://www.ledcor.com/careers",
+      "description": "Early Careers co-op program (LinkedIn cites a record 59-student fall cohort); recruits at U of T and TMU.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Ledcor (Toronto)",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "General contractor · Toronto; national",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e039",
+      "title": "Maple Reinders",
+      "url": "https://apply.workable.com/maple-reinders/",
+      "description": "Hires co-op Assistant Field and Project Coordinators (civil).",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Maple Reinders",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Reachable (bot protection)",
+        "method": "Loaded in a real browser or independent fetcher on 2026-09-28/29; plain curl is bot-blocked",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "General contractor (civil / environmental) · HQ Mississauga; sites across Canada",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e040",
+      "title": "Tridel",
+      "url": "https://www.tridel.com/about-tridel/career-opportunities/",
+      "description": "Careers page; hosts student and co-op placements (blog notes high-school co-op).",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Tridel",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Toronto",
+        "fit": "Condo builder / developer",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e041",
+      "title": "Ville de Montréal",
+      "url": "https://montreal.ca/sujets/emplois-saisonniers-etudiants-et-stages",
+      "description": "Seasonal student jobs and internships (stages) in engineering, inspection, and more.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Ville de Montréal",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": "",
+        "city": "Montreal",
+        "fit": "Municipal government",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e042",
+      "title": "CNESST",
+      "url": "https://www.cnesst.gouv.qc.ca/fr/organisation/cnesst/carrieres/offres-emploi",
+      "description": "Posts student jobs and internships; hiring OHS inspectors in Montreal.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "CNESST",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Reachable (bot protection)",
+        "method": "Loaded in a real browser or independent fetcher on 2026-09-28/29; plain curl is bot-blocked",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": "",
+        "city": "Montreal",
+        "fit": "Quebec OHS regulator · Montreal and across Quebec",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e043",
+      "title": "Hydro-Québec",
+      "url": "https://emploi.hydroquebec.com/content/Stages-et-programmes/",
+      "description": "'Stages et programmes'; Winter 2027 internships include SST/prevention roles.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Hydro-Québec",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": "",
+        "city": "Montreal",
+        "fit": "Utility · Montreal and across Quebec",
+        "pay": "Confirm",
+        "window": {
+          "kind": "deadline",
+          "date": "2026-10-05",
+          "label": "Winter 2027 college and university internships are posted Sep 22 to Oct 5, 2026",
+          "src": "https://emploi.hydroquebec.com/content/Stages-et-programmes/"
+        }
+      }
+    },
+    {
+      "id": "e044",
+      "title": "Magil Construction",
+      "url": "https://www.magil.com/en/careers",
+      "description": "Careers page lists 'Internship opportunities'.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Magil Construction",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Montreal",
+        "fit": "General contractor · Montreal; Vancouver",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e045",
+      "title": "ASP Construction",
+      "url": "https://www.asp-construction.org/carrieres",
+      "description": "Quebec construction-sector OHS association; hires prevention advisors.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "ASP Construction",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": "",
+        "city": "Montreal",
+        "fit": "Construction safety association (QC)",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e046",
+      "title": "Concordia University – Environmental Health & Safety",
+      "url": "https://www.concordia.ca/ehs.html",
+      "description": "In-house EHS department.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Concordia University – Environmental Health & Safety",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Montreal",
+        "fit": "University EHS",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e047",
+      "title": "McGill University – Environmental Health & Safety",
+      "url": "https://www.mcgill.ca/ehs/",
+      "description": "In-house EHS department.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "McGill University – Environmental Health & Safety",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Montreal",
+        "fit": "University EHS",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e048",
+      "title": "Broccolini",
+      "url": "https://www.broccolini.com/en/careers",
+      "description": "Summer internship program (stages d'été).",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Broccolini",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Montreal",
+        "fit": "General contractor / developer · HQ Montreal; Toronto and Ottawa offices",
+        "pay": "Confirm"
+      }
+    },
+    {
+      "id": "e049",
+      "title": "Brunswick Steel",
+      "url": "https://www.brunswicksteel.com/careers/",
+      "description": "A past OHS grad was hired after interning here; has an internal H&S committee.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Brunswick Steel",
+      "source": "Internship prospects list (Shaun, 2026-09-28)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl) on 2026-09-29",
+        "checked": "2026-09-29"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3.1",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": "",
+        "city": "Remote / other",
+        "fit": "Steel service centre · Springfield/Winnipeg, MB and Regina, SK",
+        "pay": "Confirm"
       }
     }
   ]
