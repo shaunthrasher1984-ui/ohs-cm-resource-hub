@@ -31,6 +31,7 @@
       "Videos & Case Studies",
       "Toolbox Talks",
       "Codes & Standards",
+      "Placements & Co-op",
       "Webinars & Events",
       "Templates & Forms",
       "Data & Statistics",
@@ -105,7 +106,26 @@
       "Free with account",
       "Free trial",
       "Mixed (some paid)"
-    ]
+    ],
+    "placement_categories": [
+      "Your Herzing internship",
+      "Wage subsidies & work-integrated learning",
+      "Associations & job boards",
+      "Employers hiring students",
+      "Training to finish before day one",
+      "Resumes, interviews & pay",
+      "Working on Quebec sites",
+      "Your rights & coverage on placement"
+    ],
+    "regions": [
+      "Ottawa",
+      "Toronto/GTA",
+      "Montreal/Quebec",
+      "Eastern Ontario corridor",
+      "Province-wide",
+      "National"
+    ],
+    "placement": "Optional object on a record: {cat: one of placement_categories, region: list of regions, lang: 'EN'|'FR'|'EN/FR', note: short tip}. Records with it appear on the Placements & Co-op tab. 'Province-wide' means Ontario-wide."
   },
   "resources": [
     {
@@ -141,7 +161,15 @@
         2
       ],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Your rights & coverage on placement",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "s. 1(1) 'worker', para. 3: an unpaid student on a program approved by a career college is a worker, so you have the right to know, to participate and to refuse unsafe work."
+      }
     },
     {
       "id": "r002",
@@ -2072,7 +2100,15 @@
         8
       ],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Training to finish before day one",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "Required before any Ontario placement (O. Reg. 297/13). Save the certificate and bring it on day one."
+      }
     },
     {
       "id": "r068",
@@ -2105,7 +2141,15 @@
         8
       ],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Training to finish before day one",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "Useful if your placement has any supervising or coordinating duties."
+      }
     },
     {
       "id": "r069",
@@ -2140,7 +2184,15 @@
         8
       ],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Training to finish before day one",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "Required before you use fall protection on an Ontario construction project (O. Reg. 297/13). Check the approved-provider list."
+      }
     },
     {
       "id": "r070",
@@ -2478,7 +2530,15 @@
         2
       ],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Training to finish before day one",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "Most sites will ask for proof of WHMIS on day one."
+      }
     },
     {
       "id": "r080",
@@ -3434,7 +3494,15 @@
       "required_note": "",
       "course_weeks": [],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "For trades apprenticeship routes. Mostly useful for CM students working alongside apprentices."
+      }
     },
     {
       "id": "r109",
@@ -3497,7 +3565,15 @@
       "required_note": "",
       "course_weeks": [],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "Ontario's general contractors. Use the member list to build your list of target employers."
+      }
     },
     {
       "id": "r111",
@@ -3529,7 +3605,15 @@
       "required_note": "",
       "course_weeks": [],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": "The national construction association. Its members and partner associations are major student employers."
+      }
     },
     {
       "id": "r112",
@@ -3685,7 +3769,15 @@
       "required_note": "",
       "course_weeks": [],
       "v2_category": "",
-      "added_in": "v1"
+      "added_in": "v1",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": "BuildForce's Career Finder. BuildForce doesn't run its own SWPP stream; construction employers can use Magnet or other SWPP partners."
+      }
     },
     {
       "id": "r117",
@@ -5108,7 +5200,15 @@
         7
       ],
       "v2_category": "Required training & regulations",
-      "added_in": "v2"
+      "added_in": "v2",
+      "placement": {
+        "cat": "Training to finish before day one",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": "Many hosts want Standard First Aid and CPR. Take it with a WSIB-approved provider."
+      }
     },
     {
       "id": "r159",
@@ -8325,6 +8425,2168 @@
       "course_weeks": [],
       "v2_category": "Accessibility",
       "added_in": "v2"
+    },
+    {
+      "id": "p001",
+      "title": "Herzing Career and Employment Services",
+      "url": "https://www.herzing.ca/campus-services/career-and-employment-services",
+      "description": "Your first stop. Career development classes, one-on-one resume help, internship placements with local employers, and resume referrals to employers hiring Herzing grads.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "Ottawa",
+          "Toronto/GTA",
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": "Email your campus: Ottawa otw-info@herzing.ca · Toronto tor-info@herzing.ca"
+      }
+    },
+    {
+      "id": "p002",
+      "title": "Services de carrière et d'emploi (Herzing, en français)",
+      "url": "https://www.herzing.ca/fr/services-au-campus/carriere-et-emploi-services",
+      "description": "La page des services de carrière en français : ateliers CV et entrevue, rendez-vous individuels, placements en stage et envoi de votre CV aux employeurs intéressés.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": ""
+      }
+    },
+    {
+      "id": "p003",
+      "title": "Herzing Occupational Health and Safety diploma (internship included)",
+      "url": "https://www.herzing.ca/programs/occupational-health-and-safety",
+      "description": "Program page: online OHS training with an internship included, approved by BCRSP so graduates can apply for the CRST certification.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Training & Certification",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": "Redirects to the OHS Officer program page."
+      }
+    },
+    {
+      "id": "p004",
+      "title": "What you learn in Herzing's OHS training (8-week internship)",
+      "url": "https://blog.herzing.ca/health-safety-officer-training-what-exactly-will-you-learn",
+      "description": "Herzing blog post on the 12-month OHS program: it states that all students complete an eight-week internship and are eligible for CRST on graduation.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College blog",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p005",
+      "title": "Herzing Construction Management (44 weeks, 5-week internship)",
+      "url": "https://www.herzing.ca/programs/construction-management",
+      "description": "Program page for Ottawa and Toronto/Cambridge students: 44 weeks including a 5-week internship, with the courses, career outlook and typical first job titles.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "Ottawa",
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p006",
+      "title": "Herzing Construction Management Technician (Montreal)",
+      "url": "https://www.herzing.ca/programs/construction-management-technician",
+      "description": "Program page for the Montreal technician program. The internship is full-time day attendance in a construction setting linked to your studies.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p007",
+      "title": "Herzing Employer Services (for host employers)",
+      "url": "https://www.herzing.ca/campus-services/employer-services",
+      "description": "Give this link to a company you would like to work for. It explains how employers work with Herzing to take interns and hire graduates.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "Ottawa",
+          "Toronto/GTA",
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p008",
+      "title": "Request a Herzing intern (employer form page)",
+      "url": "https://www.herzing.ca/campus-services/employer-services/request-an-intern",
+      "description": "The page a host employer uses to ask for a Herzing intern. Send it to your target companies so Career Services can follow up with them.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "Ottawa",
+          "Toronto/GTA",
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p009",
+      "title": "Hire a Herzing graduate (employer page)",
+      "url": "https://www.herzing.ca/campus-services/employer-services/hire-a-graduate",
+      "description": "For the end of your placement: point a host employer who liked your work to this page when they are ready to hire you, or a classmate.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Herzing College",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your Herzing internship",
+        "region": [
+          "Ottawa",
+          "Toronto/GTA",
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p010",
+      "title": "Student Work Placement Program (SWPP)",
+      "url": "https://www.canada.ca/en/employment-social-development/programs/student-work-placement-program.html",
+      "description": "The federal program that pays part of a student's wage when an employer offers a paid, school-approved work placement. Employers apply through sector delivery partners.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Employment and Social Development Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": "Only for paid placements. Mention it when you ask an employer to hire you."
+      }
+    },
+    {
+      "id": "p011",
+      "title": "Magnet SWPP: wage funding for any sector, including construction",
+      "url": "https://swpprogram.ca/",
+      "description": "SWPP delivery partner open to Canadian businesses and non-profits: up to 50% of wages, to a maximum of $5,000 per eligible placement (from April 1, 2026). Fall 2026 applications are open, first come, first served.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Magnet (Toronto Metropolitan University)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": "Can't be combined with Canada Summer Jobs or another SWPP partner."
+      }
+    },
+    {
+      "id": "p012",
+      "title": "ECO Canada Student Work Placement (co-op) wage funding",
+      "url": "https://eco.ca/environmental-employers/employment-and-wage-subsidies/",
+      "description": "Environmental and EHS employers can get 50% of a student's wage, up to $5,000, through ECO Canada's SWPP stream. Useful for OHS students placed in environment, health and safety teams.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "ECO Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p013",
+      "title": "Venture for Canada internships",
+      "url": "https://ventureforcanada.ca/programs/internships",
+      "description": "Paid internships with startups and small businesses for post-secondary students. Good for OHS or CM students interested in construction tech, prefab or small contractors.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Venture for Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p014",
+      "title": "TECHNATION Career Ready (SWPP wage subsidy)",
+      "url": "https://technationcanada.ca/en/future-workforce-development/career-ready-program/",
+      "description": "SWPP stream that covers 50% of a student's pay (up to $5,000) for tech-focused roles. It fits construction-tech placements such as BIM, scheduling software or site data.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Software & Digital Tools",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "TECHNATION",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p015",
+      "title": "Riipen: paid, project-based work experience",
+      "url": "https://www.riipen.com/",
+      "description": "Connects students with employers through short, real work projects, often remote. A way to add Canadian experience to your resume before or after the internship.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Riipen",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p016",
+      "title": "Canada Summer Jobs",
+      "url": "https://www.canada.ca/en/employment-social-development/services/funding/canada-summer-jobs.html",
+      "description": "Wage subsidies for non-profits, the public sector and small private employers (50 or fewer full-time staff) hiring youth aged 15 to 30 for summer jobs. Jobs are posted on Job Bank.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Employment and Social Development Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p017",
+      "title": "Youth Employment and Skills Strategy (YESS)",
+      "url": "https://www.canada.ca/en/employment-social-development/programs/youth-employment-strategy.html",
+      "description": "The federal umbrella for youth work programs (ages 15 to 30), including Canada Summer Jobs, with work experience, training and supports for youth facing barriers.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Employment and Social Development Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p018",
+      "title": "CEWIL Canada: types of work-integrated learning",
+      "url": "https://cewilcanada.ca/EN/EN/Resources/What-is-WIL/Types-of-WIL.aspx",
+      "description": "Plain definitions of internships, co-op, applied projects and other work-integrated learning, from Canada's WIL association. Handy when an employer asks what a placement involves.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "CEWIL Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p019",
+      "title": "Employment Ontario",
+      "url": "https://www.ontario.ca/page/employment-ontario",
+      "description": "Free provincial job-search help, training and employer incentives through local centres across Ontario, from Ottawa and Cornwall to Kingston, Belleville and the GTA.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Government of Ontario",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Wage subsidies & work-integrated learning",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p020",
+      "title": "Ottawa Construction Association: employment opportunities",
+      "url": "https://oca.ca/find-jobs/",
+      "description": "OCA's job board for Ottawa construction companies. The companion page lets job seekers post a short profile that members can see.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Ottawa Construction Association",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p021",
+      "title": "OCA Careers (Ottawa–Gatineau construction careers)",
+      "url": "https://www.ocacareers.ca/",
+      "description": "OCA's student-facing site on careers in the Ottawa–Gatineau construction industry. Its careers@oca.ca inbox connects students with member firms.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Ottawa Construction Association",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p022",
+      "title": "COCA member directory: find your local construction association",
+      "url": "https://coca.on.ca/membership/directory/",
+      "description": "The Council of Ontario Construction Associations lists its 29 member associations. Use it to find the local association and its member contractors wherever you want to work.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Council of Ontario Construction Associations",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "The box network was refused or bot-checked; page fetched from an independent network and its text checked",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p023",
+      "title": "HSPC careers board (formerly CSSE)",
+      "url": "https://healthsafetypros.ca/client/career/careers.html",
+      "description": "Health and Safety Professionals Canada, formerly the Canadian Society of Safety Engineering (CSSE), posts OHS jobs shared with its community, including Ottawa-area roles.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Health and Safety Professionals Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": "Student membership is $50 + tax a year for students enrolled in an OHS program (see Types & prices)."
+      }
+    },
+    {
+      "id": "p024",
+      "title": "HSPC Eastern Ontario Chapter",
+      "url": "https://healthsafetypros.ca/site/chapters/eastern-ontario",
+      "description": "The local HSPC chapter for eastern Ontario safety professionals. Go to a meeting as a student to meet the people who hire safety coordinators.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Webinars & Events",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Health and Safety Professionals Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Eastern Ontario corridor",
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p025",
+      "title": "BCRSP: academic programs eligible for CRSP/CRST",
+      "url": "https://bcrsp.ca/en/academic-programs-eligible-crsp-and-crst-certification-schemes",
+      "description": "BCRSP's list of recognized programs and pathways. Graduates of a recognized 2-year OHS program can write the CRST exam on graduation (Pathway C), then move to CRSP with 4 years of experience.",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Training & Certification",
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Board of Canadian Registered Safety Professionals",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p026",
+      "title": "Quinte Home Builders' Association: job opportunities",
+      "url": "https://www.quintehomebuilders.com/job-opportunities",
+      "description": "Summer, entry-level and management construction jobs in Belleville and the Quinte region, posted through the association's job board.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Quinte Home Builders' Association",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Eastern Ontario corridor"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p027",
+      "title": "Cornwall Construction Association job board",
+      "url": "https://www.cornwallconstruction.ca/job-board",
+      "description": "Job board for Cornwall and Stormont, Dundas and Glengarry construction employers, between Ottawa and Montreal.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Cornwall Construction Association",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Eastern Ontario corridor"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p028",
+      "title": "First Work: Pathways to ICI (new grads and newcomers)",
+      "url": "https://firstwork.org/pathways-to-ici/",
+      "description": "A bridging program for new graduates and newcomers exploring project manager and site supervisor careers in industrial, commercial and institutional construction.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "First Work (Ontario's youth employment network)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Associations & job boards",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p029",
+      "title": "PCL Construction careers",
+      "url": "https://www.pcl.com/ca/en/careers",
+      "description": "Careers at one of Canada's largest contractors, with student and new-grad roles in Ottawa, Toronto and across Canada. Join the talent community to get student postings.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "PCL Construction",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "National",
+          "Ottawa",
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p030",
+      "title": "EllisDon: work with us (co-op and internships)",
+      "url": "https://www.ellisdon.com/work-with-us",
+      "description": "EllisDon offers co-op and internship placements across departments, plus mentorship. Head office in Mississauga, with offices in Ottawa and across Canada.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "EllisDon",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "National",
+          "Ottawa",
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p031",
+      "title": "Bird Construction Campus Connect",
+      "url": "https://www.bird.ca/campus/",
+      "description": "Bird's student program. Postings go up in September (January start), January (May start) and May (September start), for 4 to 16-month terms, including construction management and safety roles.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Bird Construction",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "The box network was refused or bot-checked; page fetched from an independent network and its text checked",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "National",
+          "Ottawa",
+          "Toronto/GTA",
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p032",
+      "title": "Pomerleau internship program",
+      "url": "https://pomerleau.ca/en/internship-program",
+      "description": "Paid internships in project management and site coordination with a major Quebec-based builder working in Montreal, Ottawa and Toronto. A French version is also available.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Pomerleau",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec",
+          "Ottawa",
+          "Toronto/GTA"
+        ],
+        "lang": "EN/FR",
+        "note": ""
+      }
+    },
+    {
+      "id": "p033",
+      "title": "Graham: students and new grads",
+      "url": "https://www.grahambuilds.com/careers/",
+      "description": "Graham's careers page, with co-op and internship terms and a graduate program for students starting in construction.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Graham Construction",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "National",
+          "Toronto/GTA"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p034",
+      "title": "Aecon: new grads and students",
+      "url": "https://jobs.aecon.com/go/New-Grads-and-Students/2609817/",
+      "description": "Aecon's live list of student and new-grad jobs, from site project teams to support services. Filter by Ontario or Quebec.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Aecon",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "National",
+          "Toronto/GTA",
+          "Ottawa",
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p035",
+      "title": "Colliers Project Leaders careers (co-op students)",
+      "url": "https://www.colliersprojectleaders.com/careers/",
+      "description": "A project management firm with a large Ottawa presence that takes co-op students every year. A good fit for CM students interested in the owner's side of projects.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Colliers Project Leaders",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa",
+          "Toronto/GTA",
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p036",
+      "title": "EBC: internship opportunities",
+      "url": "https://www.ebcinc.com/en/job/internship-opportunities-at-ebc/",
+      "description": "Internships with Quebec's second-largest general contractor on building, civil and mining projects. Pay depends on your year of study.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "EBC Inc.",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 in headless Chrome (plain curl got a bot check); rendered page text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p037",
+      "title": "City of Ottawa: summer and co-op student recruitment",
+      "url": "https://jobs-emplois.ottawa.ca/city-jobs/content/Summer-and-Coop-Student-Recruitment/?locale=en_GB",
+      "description": "The City of Ottawa hires summer and co-op students across more than 110 business lines, including engineering, infrastructure and facilities.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "City of Ottawa",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p038",
+      "title": "Federal Student Work Experience Program (FSWEP)",
+      "url": "https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html",
+      "description": "The federal public service's year-round student inventory, used by more than 200 departments, many of them in Ottawa–Gatineau. Includes trades, property and safety roles.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Public Service Commission of Canada",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "National",
+          "Ottawa"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p039",
+      "title": "Ontario Public Service summer jobs",
+      "url": "https://www.ontario.ca/page/careers-summer-employment-opportunities",
+      "description": "Paid summer jobs for students in the Ontario Public Service. The 2026 ads have closed; summer 2027 jobs will be posted in fall/winter, so sign up for job alerts now.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Government of Ontario",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Employers hiring students",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p040",
+      "title": "Job Bank: how to write a good resume",
+      "url": "https://www.jobbank.gc.ca/findajob/resources/write-good-resume",
+      "description": "Step-by-step resume guide with formats and examples. Put your safety tickets (WHMIS, Working at Heights, first aid) near the top.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Government of Canada (Job Bank)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Resumes, interviews & pay",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p041",
+      "title": "Job Bank: preparing for an interview",
+      "url": "https://www.jobbank.gc.ca/findajob/resources/prepare-for-interview",
+      "description": "How to research the company, answer with the STAR method and what to bring. Have a safety story ready: a hazard you spotted and what you did about it.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Government of Canada (Job Bank)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Resumes, interviews & pay",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p042",
+      "title": "Job Bank wages: occupational health and safety officer (Ontario)",
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22668/ON",
+      "description": "Hourly wages by region, in NOC 2021 22232 (occupational health and safety specialists). Ottawa region: $26.71 low, $41.10 median, $56.28 high (2024 reference period).",
+      "track": "OHS",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Data & Statistics",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Government of Canada (Job Bank)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Data",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Resumes, interviews & pay",
+        "region": [
+          "Province-wide",
+          "Ottawa",
+          "Toronto/GTA",
+          "Eastern Ontario corridor"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p043",
+      "title": "Job Bank wages: construction manager (Ontario)",
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24325/ON",
+      "description": "Hourly wages by region, in NOC 2021 70010 (construction managers). Ottawa region: $33.33 low, $55.56 median, $95.38 high (2023–2024). Entry roles such as coordinator start lower.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Careers & Jobs",
+        "Data & Statistics",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Government of Canada (Job Bank)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Data",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Resumes, interviews & pay",
+        "region": [
+          "Province-wide",
+          "Ottawa",
+          "Toronto/GTA",
+          "Eastern Ontario corridor"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p044",
+      "title": "IHSA: health and safety basics for new and young workers",
+      "url": "https://www.ihsa.ca/IHSA/Products/Items/Health-and-safety-basics-for-new-and-young-workers.aspx",
+      "description": "A free download from IHSA (product W056) covering jobsite rights and responsibilities, hazard identification and control, and safe tool use. Read it before your first day on site.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Hazard Recognition & Control",
+        "Training & Certification",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Infrastructure Health & Safety Association",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Training to finish before day one",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p045",
+      "title": "CCOHS Young Workers Zone",
+      "url": "https://www.ccohs.ca/youngworkers/",
+      "description": "Short, practical tips for new workers on rights, speaking up and avoiding distractions, from the Canadian Centre for Occupational Health and Safety.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Hazard Recognition & Control",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "CCOHS",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Training to finish before day one",
+        "region": [
+          "National"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p046",
+      "title": "ASP Construction: cours 30 h (Santé et sécurité générale sur les chantiers de construction)",
+      "url": "https://www.asp-construction.org/cours-30-h",
+      "description": "Le cours 30 h est obligatoire pour travailler sur les chantiers au Québec. Trouvez un organisme reconnu et obtenez la carte ASP Construction.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Training & Certification",
+        "Legislation & Compliance",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "ASP Construction",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Course",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Working on Quebec sites",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": "Required in Quebec: Code de sécurité pour les travaux de construction, s. 2.4.2(i). The course itself has a fee."
+      }
+    },
+    {
+      "id": "p047",
+      "title": "ACQ: formation ASP (cours 30 h)",
+      "url": "https://www.acq.org/formations/formation-asp/",
+      "description": "L'Association de la construction du Québec offre le cours 30 h en classe et en ligne dans plusieurs régions. Page publique avec dates et prix (à partir de 215 $ membre, 290 $ non-membre).",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Training & Certification",
+        "Placements & Co-op"
+      ],
+      "free": "Mixed (some paid)",
+      "org": "Association de la construction du Québec (ACQ)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Course",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Working on Quebec sites",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": ""
+      }
+    },
+    {
+      "id": "p048",
+      "title": "CCQ: competency certificates for Quebec construction",
+      "url": "https://www.ccq.org/en/qualification-acces-industrie/certificat-competence",
+      "description": "Workers in construction covered by Act R-20 must hold a CCQ competency certificate (apprentice, journeyperson or occupation). Check with the CCQ and your host whether your placement duties count as construction work.",
+      "track": "CM",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Legislation & Compliance",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Commission de la construction du Québec",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Working on Quebec sites",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p049",
+      "title": "CNESST : protection des stagiaires",
+      "url": "https://www.cnesst.gouv.qc.ca/fr/demarches-formulaires/employeurs/assurance-sante-securite-travail/types-protection/protection-stagiaires",
+      "description": "Paid interns in Quebec are workers. Unpaid students are covered when the placement is under the responsibility of a Quebec educational institution, which pays the premium. Prevention duties apply to every internship.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Legislation & Compliance",
+        "Workers' Comp & Return to Work",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "CNESST",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "The box network was refused or bot-checked; page fetched from an independent network and its text checked",
+        "checked": "2026-09-28"
+      },
+      "format": "Regulation",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your rights & coverage on placement",
+        "region": [
+          "Montreal/Quebec"
+        ],
+        "lang": "FR",
+        "note": ""
+      }
+    },
+    {
+      "id": "p050",
+      "title": "Bill 18 (2014): unpaid students became OHSA 'workers'",
+      "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-18",
+      "description": "The Stronger Workplaces for a Stronger Economy Act, 2014. Schedule 4 replaced the OHSA definition of 'worker' to include unpaid post-secondary students on approved placements. It took effect at Royal Assent on November 20, 2014.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Legislation & Compliance",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Legislative Assembly of Ontario",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Regulation",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your rights & coverage on placement",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p051",
+      "title": "WSIB policy 12-04-04: individuals on unpaid training placements",
+      "url": "https://www.wsib.ca/en/operational-policy-manual/individuals-unpaid-training-placements",
+      "description": "WSIB policy naming students placed by a college, university or private career college as 'unpaid trainees'. Their placement hours may be covered, but classroom time is not.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Workers' Comp & Return to Work",
+        "Legislation & Compliance",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "WSIB",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Regulation",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your rights & coverage on placement",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p052",
+      "title": "WSIB: coverage for unpaid trainees (who pays)",
+      "url": "https://www.wsib.ca/en/coverage-unpaid-trainees",
+      "description": "Explains who pays: the placement host pays trainee premiums if it must have WSIB coverage, unless the training agency or a government program pays. Construction employers must have coverage.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Workers' Comp & Return to Work",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "WSIB",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Website",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your rights & coverage on placement",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
+    },
+    {
+      "id": "p053",
+      "title": "Ontario: workplace insurance for postsecondary students on unpaid placements",
+      "url": "https://www.ontario.ca/page/workplace-insurance-postsecondary-students-unpaid-work-placements",
+      "description": "The Ministry of Colleges and Universities program that pays WSIB (or Chubb private insurance) for unpaid placements. It covers publicly assisted colleges, universities and Indigenous Institutes only, not private career colleges.",
+      "track": "Both",
+      "stages": [
+        1,
+        2
+      ],
+      "tags": [
+        "Workers' Comp & Return to Work",
+        "Placements & Co-op"
+      ],
+      "free": "Free",
+      "org": "Government of Ontario (Ministry of Colleges and Universities)",
+      "source": "Researched (v3 placements)",
+      "section": "public",
+      "audience": "Everyone",
+      "public": true,
+      "verification": {
+        "status": "Verified",
+        "method": "HTTP 200 (curl, redirects followed); page title and body text checked for the claims in the description",
+        "checked": "2026-09-28"
+      },
+      "format": "Regulation",
+      "required_in_ontario": false,
+      "required_note": "",
+      "course_weeks": [],
+      "v2_category": "Placements & co-op",
+      "added_in": "v3",
+      "placement": {
+        "cat": "Your rights & coverage on placement",
+        "region": [
+          "Province-wide"
+        ],
+        "lang": "EN",
+        "note": ""
+      }
     }
   ]
 }
