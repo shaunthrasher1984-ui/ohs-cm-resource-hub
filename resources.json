@@ -8833,7 +8833,7 @@
           "National"
         ],
         "lang": "EN",
-        "note": "Only for paid placements. Mention it when you ask an employer to hire you."
+        "note": "Only for paid placements, where compensation is set and paid by the host organization, not Herzing College. Mention it when you ask an employer to host you."
       }
     },
     {
@@ -10619,7 +10619,7 @@
       "id": "p052",
       "title": "WSIB: coverage for unpaid trainees (who pays)",
       "url": "https://www.wsib.ca/en/coverage-unpaid-trainees",
-      "description": "Explains who pays: the placement host pays trainee premiums if it must have WSIB coverage, unless the training agency or a government program pays. Construction employers must have coverage.",
+      "description": "Explains who pays WSIB premiums for unpaid trainees; coverage for a placement depends on the host and program arrangement. Construction employers must have coverage. Confirm your coverage in writing with the host and Career Services.",
       "track": "Both",
       "stages": [
         1,
