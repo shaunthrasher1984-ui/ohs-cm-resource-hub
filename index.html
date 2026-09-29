@@ -50,9 +50,9 @@ svg.i{width:1.15em;height:1.15em;vertical-align:-.2em;fill:none;stroke:currentCo
 .hero h1{font-size:clamp(1.8rem,3.6vw,2.9rem);line-height:1.12;margin:16px 0 10px;letter-spacing:-.5px;max-width:880px}
 .hero h1 em{font-style:normal;color:#7fe0d6}
 .hero p.lead{font-size:clamp(1rem,1.5vw,1.18rem);color:#cfe0f0;max-width:780px;margin:0 0 22px}
-.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
 .btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:10px;padding:11px 16px;font-weight:650;font-size:.95rem;cursor:pointer;text-decoration:none;transition:transform .15s,box-shadow .15s,background .15s}
 .btn:hover{transform:translateY(-1px)}
+.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
 .btn-primary{background:var(--teal2);color:#04262a;box-shadow:0 6px 18px rgba(18,164,160,.35)}
 .btn-ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.25)}
 .counters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;max-width:1040px}
@@ -274,36 +274,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
 @media print{.route{grid-template-columns:1fr 1fr}.route:before{display:none}.plhero{border:1px solid #999}}
 .hero:after{pointer-events:none}.hero .wrap{position:relative;z-index:1}
 /* v3.1: hero CTA, path cards, outcome counters, tab hints, explore start-here, paid-first placements, about */
-.ctas{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:flex-start;margin-bottom:24px}
-.cta-main{display:flex;flex-direction:column;gap:8px;max-width:520px}
-.btn-lg{padding:15px 22px;font-size:1.08rem;border-radius:12px;align-self:flex-start}
-.btn-primary{background:#3cc7b8;color:#04262a;box-shadow:0 8px 24px rgba(18,164,160,.4)}
-.btn-primary:hover{background:#5fd6c9}
-.cta-sub{margin:0;font-size:.86rem;color:#bcd0e4;line-height:1.4}
-.cta-sec{display:flex;flex-wrap:wrap;gap:8px;padding-top:4px}
-.btn-sm{padding:8px 12px;font-size:.86rem;font-weight:600}
-.btn-ghost{background:transparent;border-color:rgba(255,255,255,.28)}
-.btn-ghost:hover{background:rgba(255,255,255,.1)}
-.counters{grid-template-columns:repeat(4,minmax(0,1fr))}
-a.counter{text-decoration:none;color:inherit;display:block;transition:border-color .15s,background .15s,transform .15s}
-a.counter:hover{background:rgba(255,255,255,.12);border-color:rgba(127,224,214,.6);transform:translateY(-2px)}
-a.counter span{display:block;line-height:1.35;margin-top:2px}
-a.counter span:after{content:" \2192";color:#7fe0d6}
-.verified a{color:#cfe0f0}
-.paths{padding:22px 0 6px}
-.paths h2{margin:0 0 12px;font-size:1.2rem;letter-spacing:-.2px}
-.pgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
-.path{display:flex;flex-direction:column;gap:5px;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--shadow);border-top:4px solid var(--tealtx);transition:transform .18s,box-shadow .18s,border-color .18s;animation:rise .45s ease both}
-.path:nth-child(2){animation-delay:.06s;border-top-color:#34488f}.path:nth-child(3){animation-delay:.12s;border-top-color:#a85a04}.path:nth-child(4){animation-delay:.18s;border-top-color:#157347}
-.path:hover{transform:translateY(-3px);box-shadow:var(--shadow2)}
-@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.pic{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:var(--tealbg);color:var(--tealtx)}
-.p-cm .pic{background:#e8ecf8;color:#34488f}.p-pl .pic{background:#fdeee3;color:#9a4513}.p-tr .pic{background:#e2f4ea;color:#157347}
-[data-theme=dark] .p-cm .pic{background:#1f2747;color:#b4c3ff}[data-theme=dark] .p-pl .pic{background:#3b2414;color:#ffb07a}[data-theme=dark] .p-tr .pic{background:#143424;color:#86efac}
-.pk{font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
-.path b{font-size:1.06rem;line-height:1.25}
-.pd{font-size:.88rem;color:var(--muted)}.pd strong{color:var(--ink)}
-.pgo{margin-top:auto;padding-top:6px;font-size:.86rem;font-weight:700;color:var(--tealtx);display:inline-flex;gap:6px;align-items:center}
 .tabscroll{position:relative;flex:1;min-width:0;display:flex}
 .tabscroll .tabs{flex:1;min-width:0}
 .tabscroll:before,.tabscroll:after{content:"";position:absolute;top:0;bottom:0;width:56px;pointer-events:none;opacity:0;transition:opacity .2s;z-index:1}
@@ -314,8 +284,6 @@ a.counter span:after{content:" \2192";color:#7fe0d6}
 .tabmore{display:none;position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--tealtx);place-items:center;padding:0;cursor:pointer;box-shadow:var(--shadow)}
 .tm-l{left:0}.tm-l svg{transform:rotate(180deg)}.tm-r{right:0}
 .tabscroll.more-r .tm-r,.tabscroll.more-l .tm-l{display:grid}
-.showall{text-align:center;margin:18px 0 6px}
-.showall .btn{font-size:1rem;padding:12px 22px}
 .plpaid{margin:0 0 6px}.plpaid .group{margin-top:4px}
 .pgrid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .pcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow);border-left:4px solid var(--free)}
@@ -340,16 +308,10 @@ a.counter span:after{content:" \2192";color:#7fe0d6}
 .about h2{margin:0 0 6px;font-size:1.15rem}
 .about p{margin:6px 0 0;font-size:.92rem;color:var(--muted);max-width:980px}.about p strong{color:var(--ink)}
 .fnote{opacity:.8}
-@media (max-width:1000px){.pgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.counters{grid-template-columns:repeat(2,minmax(0,1fr))}.pgrid3{grid-template-columns:1fr}}
-@media (max-width:640px){.ctas{display:flex;flex-direction:column;gap:12px}.btn-lg{align-self:stretch;justify-content:center;font-size:1rem}.cta-sec .btn{flex:1 1 auto;justify-content:center}
- .counters{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.counter:last-child{grid-column:auto}.counter{padding:10px 12px}a.counter span{font-size:.78rem}
- .pgrid{gap:10px}.path{padding:12px}.path b{font-size:.95rem}.pd{font-size:.8rem}.pic{width:32px;height:32px}.pgo{font-size:.8rem}}
-@media (max-width:640px){.hero p.lead{font-size:.95rem;margin-bottom:16px}.hero h1{font-size:1.65rem}.cta-sub{font-size:.8rem}.cta-sec .btn{font-size:.82rem;padding:8px 10px}}
-@media (prefers-reduced-motion:reduce){.path,.path:hover,a.counter:hover{transform:none!important;opacity:1!important}}
-@media print{.paths,.about,#plCohort .cofrm,.tabmore{display:none!important}}
+@media (max-width:1000px){.pgrid3{grid-template-columns:1fr}}
+@media print{.about,#plCohort .cofrm,.tabmore{display:none!important}}
 .pgrid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .paynote{display:flex;gap:8px;align-items:flex-start;border-left-color:#566476}.paynote svg{flex:none;margin-top:2px}
-[data-theme=dark] .btn-primary,.btn-primary{color:#04262a}[data-theme=dark] .btn-ghost{color:#fff}[data-theme=dark] .verified a{color:#cfe0f0}
 @media (max-width:1000px){.pgrid2{grid-template-columns:1fr}}
 .b-paid{background:var(--freebg);color:var(--free)}.b-conf{background:var(--soft);color:var(--muted);border:1px solid var(--line)}
 .pl-fit,.pl-win,.pl-pay,.pl-link{font-size:.8rem;margin:0;display:flex;gap:6px;align-items:flex-start;color:var(--muted)}.pl-win{color:var(--ink);font-weight:600}
@@ -357,6 +319,21 @@ a.counter span:after{content:" \2192";color:#7fe0d6}
 .wingroup{margin:16px 0 8px;font-size:.95rem;display:flex;gap:8px;align-items:center;color:var(--ink)}.wingroup .n{font-size:.72rem;background:var(--soft);color:var(--muted);padding:1px 7px;border-radius:99px}
 .updline{font-size:.84rem;color:var(--muted);margin:0 0 4px}
 .soonh{margin:10px 0 4px;font-size:.92rem}.soonlist{margin:0 0 8px;padding-left:18px;font-size:.88rem;display:grid;gap:4px}
+
+/* blend: highlighted entry into the new internships break-out section */
+.btn-new,[data-theme=dark] .btn-new{background:#fff;color:#0a2342;border:1px solid #fff;text-decoration:none;font-weight:750;box-shadow:0 6px 18px rgba(255,255,255,.18)}
+.btn-new:hover{background:#e3f5f4}
+.newpill{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:99px;background:#a85a04;color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.4px;text-transform:uppercase;vertical-align:1px}
+.tab-new{color:var(--ink)}
+.tab-new .newpill{margin-left:2px}
+.kicker{display:inline-block;font-size:.74rem;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:#a85a04;margin-bottom:4px}
+[data-theme=dark] .kicker{color:#f3c35b}
+.plstats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:0 0 14px}
+.plstat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);border-top:4px solid var(--tealtx)}
+.plstat b{display:block;font-size:1.6rem;line-height:1.1;color:var(--ink)}
+.plstat span{font-size:.82rem;color:var(--muted);line-height:1.3;display:block;margin-top:2px}
+@media (max-width:1000px){.plstats{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:640px){.plstats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.plstat{padding:10px 12px}.plstat b{font-size:1.3rem}.ctas .btn-new{grid-column:span 2}}
 </style>
 </head>
 <body>
@@ -395,46 +372,32 @@ a.counter span:after{content:" \2192";color:#7fe0d6}
 <header class="hero" id="top">
  <div class="wrap">
   <div class="brand"><span class="logo"><svg class="i"><use href="#i-shield"/></svg></span>Herzing College · Ottawa · OHS &amp; Construction Management</div>
-  <h1>Free, verified resources for a <em>safety</em> or <em>construction management</em> career, in one place.</h1>
+  <h1>Every free, verified resource for a <em>safety</em> or <em>construction management</em> career, in one place.</h1>
   <p class="lead">A curated, Ontario-first hub for students and staff: the laws and training Ontario requires, free webinars, templates, case studies for each course week, and a career roadmap from first class to leadership.</p>
   <div class="ctas">
-   <div class="cta-main">
-    <a class="btn btn-primary btn-lg" href="#placements" data-go="placements" id="ctaPlace"><svg class="i"><use href="#i-briefcase"/></svg>Plan my internship / placement<svg class="i"><use href="#i-arrow"/></svg></a>
-    <p class="cta-sub">Your OHS or Construction Management program includes an internship. Career Services confirms its length and your dates, and helps you find a host.</p>
-   </div>
-   <div class="cta-sec" aria-label="More ways in">
-    <a class="btn btn-ghost btn-sm" href="#explore" data-go="explore"><svg class="i"><use href="#i-search"/></svg>Explore resources</a>
-    <a class="btn btn-ghost btn-sm" href="#roadmap" data-go="roadmap"><svg class="i"><use href="#i-map"/></svg>Career roadmap</a>
-    <button class="btn btn-ghost btn-sm" id="shareHub"><svg class="i"><use href="#i-qr"/></svg>Share this hub</button>
-   </div>
+   <button class="btn btn-primary" data-go="explore"><svg class="i"><use href="#i-search"/></svg>Explore resources</button>
+   <button class="btn btn-ghost" data-go="roadmap"><svg class="i"><use href="#i-map"/></svg>Career roadmap</button>
+   <a class="btn btn-new" href="#placements" data-go="placements" id="ctaPlace"><svg class="i"><use href="#i-briefcase"/></svg>Internships &amp; placements<span class="newpill">New</span></a>
+   <button class="btn btn-ghost" data-go="required"><svg class="i"><use href="#i-shield"/></svg>What Ontario requires</button>
+   <button class="btn btn-ghost" id="shareHub"><svg class="i"><use href="#i-qr"/></svg>Share this hub</button>
   </div>
-  <div class="counters" aria-label="What you get">
-   <a class="counter" href="#placements" data-go="placements"><b data-count="pl">112</b><span>placement resources and a 7-step internship route</span></a>
-   <a class="counter" href="#required" data-go="required"><b data-count="req">42</b><span>things Ontario requires, each with its legal basis</span></a>
-   <a class="counter" href="#webinars" data-go="webinars"><b data-count="web">30</b><span>free webinars, events and podcasts to learn from</span></a>
-   <a class="counter" href="#weeks" data-go="weeks"><b data-count="wk">123</b><span>readings and case studies matched to your course weeks</span></a>
+  <div class="counters" aria-label="Hub at a glance">
+   <div class="counter"><b data-count="res">300</b><span>free public resources</span></div>
+   <div class="counter"><b data-count="freepct" data-suffix="%">99%</b><span>no cost to use</span></div>
+   <div class="counter"><b data-count="web">30</b><span>webinars, events &amp; podcasts</span></div>
+   <div class="counter"><b data-count="req">42</b><span>required-in-Ontario items</span></div>
+   <div class="counter"><b data-count="wk">123</b><span>resources mapped to course weeks</span></div>
   </div>
-  <div class="verified"><span class="dot"></span><span><a href="#explore" data-go="explore">349 resources</a>, 99% at no cost · all links last verified September 28, 2026 · checked by script and in a real browser</span></div>
+  <div class="verified"><span class="dot"></span>All links last verified September 28, 2026 · checked by script and in a real browser</div>
  </div>
 </header>
-<section class="paths" id="paths" aria-labelledby="h-paths">
- <div class="wrap">
-  <h2 id="h-paths">Pick your path</h2>
-  <div class="pgrid">
-   <a class="path p-ohs" href="#explore" data-path="ohs"><span class="pic"><svg class="i"><use href="#i-shield"/></svg></span><span class="pk">Student · OHS</span><b>Build your safety career</b><span class="pd"><strong data-pcount="ohs">254</strong> resources for OHS students, from Worker Awareness to CRSP</span><span class="pgo">Show OHS resources<svg class="i"><use href="#i-arrow"/></svg></span></a>
-   <a class="path p-cm" href="#explore" data-path="cm"><span class="pic"><svg class="i"><use href="#i-Data"/></svg></span><span class="pk">Student · CM</span><b>Run projects with confidence</b><span class="pd"><strong data-pcount="cm">292</strong> resources for CM students: estimating, scheduling, contracts and site safety</span><span class="pgo">Show CM resources<svg class="i"><use href="#i-arrow"/></svg></span></a>
-   <a class="path p-pl" href="#placements" data-go="placements"><span class="pic"><svg class="i"><use href="#i-briefcase"/></svg></span><span class="pk">Internship / placement</span><b>Land your placement</b><span class="pd"><strong data-pcount="pl">112</strong> placement resources, a step-by-step route and your rights on site</span><span class="pgo">Open Placements<svg class="i"><use href="#i-arrow"/></svg></span></a>
-   <a class="path p-tr" href="#explore" data-path="train"><span class="pic"><svg class="i"><use href="#i-Course"/></svg></span><span class="pk">Free training</span><b>Earn tickets and certificates</b><span class="pd"><strong data-pcount="train">42</strong> free training and certification resources</span><span class="pgo">Show free training<svg class="i"><use href="#i-arrow"/></svg></span></a>
-  </div>
- </div>
-</section>
 <nav class="topnav" aria-label="Hub sections">
  <div class="wrap">
   <div class="tabscroll" id="tabscroll">
   <div class="tabs" id="tabs">
-   <button class="tab" data-view="explore"><svg class="i"><use href="#i-compass"/></svg>Explore<span class="n" id="n-explore">349</span></button>
+   <button class="tab" data-view="explore"><svg class="i"><use href="#i-compass"/></svg>Explore<span class="n" id="n-explore">300</span></button>
    <button class="tab" data-view="roadmap"><svg class="i"><use href="#i-map"/></svg>Career Roadmap</button>
-   <button class="tab" data-view="placements"><svg class="i"><use href="#i-briefcase"/></svg>Placements &amp; Co-op<span class="n" id="n-placements"></span></button>
+   <button class="tab tab-new" data-view="placements"><svg class="i"><use href="#i-briefcase"/></svg>Internships &amp; Placements 2026<span class="newpill">New</span><span class="n" id="n-placements">112</span></button>
    <button class="tab" data-view="required"><svg class="i"><use href="#i-shield"/></svg>Required in Ontario<span class="n" id="n-required"></span></button>
    <button class="tab" data-view="webinars"><svg class="i"><use href="#i-Webinar"/></svg>Webinars &amp; Events<span class="n" id="n-webinars"></span></button>
    <button class="tab" data-view="templates"><svg class="i"><use href="#i-Template"/></svg>Templates &amp; Forms<span class="n" id="n-templates"></span></button>
@@ -467,7 +430,6 @@ a.counter span:after{content:" \2192";color:#7fe0d6}
    </div>
    <div class="meta"><span id="count" aria-live="polite"></span><span><button class="linkbtn" id="clear">Reset filters</button> · <button class="linkbtn" id="printList">Print this list</button></span></div>
    <div class="grid" id="grid"></div>
-   <div class="showall" id="showAllWrap" hidden><button class="btn btn-o" id="showAll">Show all</button></div>
    <div class="panel cal" id="cal1" style="margin-top:24px"></div>
   </section>
   <section class="view" id="v-roadmap" aria-labelledby="h-road">
@@ -478,8 +440,15 @@ a.counter span:after{content:" \2192";color:#7fe0d6}
    <div class="checkwrap"><h3 class="group"><svg class="i"><use href="#i-check"/></svg>Career-stage checklists</h3><div class="checks" id="checks"></div></div>
   </section>
   <section class="view" id="v-placements" aria-labelledby="h-pl">
-   <div class="vhead"><div><h2 id="h-pl">Placements &amp; co-op</h2><p>Free, checked resources to help you land your internship, co-op or first job in Ottawa, Toronto, Montreal and the towns in between: who hires students, wage subsidies that make employers say yes, the training to finish first, and your rights on placement.</p></div>
+   <div class="vhead"><div><span class="kicker">New section · updated September 29, 2026</span><h2 id="h-pl">Internships &amp; Placements 2026</h2><p>Everything for your internship in one place: your rights and safety on placement, WSIB coverage, who hires students in Ottawa, Toronto and Montreal, open application windows, and a step-by-step route. The main hub resources are unchanged under <a href="#explore" data-go="explore">Explore</a>.</p></div>
     <div class="noprint"><button class="btn btn-o" id="printPl"><svg class="i"><use href="#i-print"/></svg>Print</button></div></div>
+   <div class="plstats" aria-label="Internship section at a glance">
+    <div class="plstat"><b>60</b><span>employers hiring students</span></div>
+    <div class="plstat"><b>4</b><span>with pay shown on the employer&rsquo;s own posting</span></div>
+    <div class="plstat"><b>4</b><span>dated application windows (1 with a closing date)</span></div>
+    <div class="plstat"><b>7</b><span>steps in the internship route</span></div>
+    <div class="plstat"><b>112</b><span>internship &amp; placement resources</span></div>
+   </div>
    <div class="plhero panel"><div class="plhero-i"><svg class="i"><use href="#i-briefcase"/></svg></div><div><p id="plIntro"></p><p class="inbox" id="plInbox"></p></div></div>
    <div class="plpaid" id="plPaid"></div>
    <p class="note plunpaid" id="plUnpaid"></p>
@@ -532,7 +501,7 @@ a.counter span:after{content:" \2192";color:#7fe0d6}
  <div class="wrap">
   <div class="panel">
    <h2 id="h-about">About this hub</h2>
-   <p><strong>An instructor-built resource, not an official Herzing College website.</strong> It was made by a Herzing instructor for Occupational Health and Safety and Construction Management students, and is not published or endorsed by Herzing College. For official program, admissions and internship information, see <a href="https://www.herzing.ca/">herzing.ca</a> and your campus <a href="https://www.herzing.ca/campus-services/career-and-employment-services">Career and Employment Services</a>.</p>
+   <p><strong>An instructor-built resource, not an official Herzing College website, and it is pending review.</strong> It was made by a Herzing instructor for Occupational Health and Safety and Construction Management students, and is not published or endorsed by Herzing College. For official program, admissions and internship information, see <a href="https://www.herzing.ca/">herzing.ca</a> and your campus <a href="https://www.herzing.ca/campus-services/career-and-employment-services">Career and Employment Services</a>.</p>
    <p>Every link points to a free or mostly free public resource and was checked by script and in a real browser (last verified September 28, 2026). Laws and summaries here are teaching aids, not legal advice. No tracking, no cookies.</p>
   </div>
  </div>
@@ -2177,7 +2146,8 @@ var qrcode = function() {
 var D=JSON.parse(document.getElementById('hub-data').textContent);
 var X=JSON.parse(document.getElementById('hub-extra').textContent);
 var R=D.resources, STG=D.schema.stages, WEEKS=D.schema.course_weeks;
-var PUB=R.filter(function(r){return r.section==='public'&&r.public});
+var ALLPUB=R.filter(function(r){return r.section==='public'&&r.public});
+var PUB=ALLPUB.filter(function(r){return r.added_in!=='v3.1'});
 var byUrl={};R.forEach(function(r){byUrl[r.url]=r});
 function $(s,el){return (el||document).querySelector(s)}
 function $$(s,el){return Array.prototype.slice.call((el||document).querySelectorAll(s))}
@@ -2217,7 +2187,7 @@ function row(r,note){return '<div class="row f-'+esc(r.format)+'"><span class="f
 var reqItems=PUB.filter(function(r){return r.required_in_ontario});
 var webItems=PUB.filter(function(r){return ['Webinar','Event','Podcast'].indexOf(r.format)>-1||r.v2_category==='Podcasts & video channels'});
 var tplItems=PUB.filter(function(r){return r.format==='Template'||r.tags.indexOf('Templates & Forms')>-1||r.tags.indexOf('Toolbox Talks')>-1});
-var plItems=PUB.filter(function(r){return r.placement});
+var plItems=ALLPUB.filter(function(r){return r.placement});
 var wkItems=PUB.filter(function(r){return r.course_weeks&&r.course_weeks.length});
 var noCost=PUB.filter(function(r){return r.free==='Free'||r.free==='Free with account'}).length;
 var CNT={res:PUB.length,freepct:Math.round(100*noCost/PUB.length),web:webItems.length,req:reqItems.length,wk:wkItems.length,pl:plItems.length};
@@ -2254,34 +2224,13 @@ function match(r){if(st.track!=='All'&&r.track!==st.track&&r.track!=='Both')retu
  if(st.q){var hay=(r.title+' '+r.description+' '+r.org+' '+r.tags.join(' ')+' '+r.format+' '+(r.required_note||'')+' '+(r.series||'')).toLowerCase();
   var ws=st.q.toLowerCase().split(/\s+/).filter(Boolean);for(var j=0;j<ws.length;j++)if(hay.indexOf(ws[j])<0)return false}
  return true}
-/* start here: first-stage roadmap, checklist and placement picks (24), then everything else */
-var LIMIT=24,showAll=false,lastKey='',START=[],seenS={};
-function addS(u){var r=byUrl[u];if(r&&!seenS[u]&&r.section==='public'&&r.public&&START.length<LIMIT){seenS[u]=1;START.push(r)}}
-function addC(c){addS(c[1])}
-X.ROAD.OHS[1].forEach(addS);X.ROAD.CM[1].forEach(addS);X.CHECK[1].forEach(addC);X.PLACE.route[0].links.forEach(addS);X.PLACE.route[1].links.forEach(addS);
-X.ROAD.OHS[2].forEach(addS);X.ROAD.CM[2].forEach(addS);X.CHECK[2].forEach(addC);
-PUB.slice().sort(function(a,b){return score(b)-score(a)||a.title.localeCompare(b.title)}).forEach(function(r){addS(r.url)});
-function isDefault(){return !st.q&&st.track==='All'&&!+st.stage&&!st.fmt&&!st.acc&&!st.tags.length&&!st.fav&&!st.req&&st.sort==='rel'}
-function renderExplore(){var list=PUB.filter(match),key=JSON.stringify(st);if(key!==lastKey){showAll=false;lastKey=key}
+function renderExplore(){var list=PUB.filter(match);
  if(st.sort==='az')list.sort(function(a,b){return a.title.localeCompare(b.title)});
  else if(st.sort==='org')list.sort(function(a,b){return a.org.localeCompare(b.org)||a.title.localeCompare(b.title)});
  else if(st.sort==='new')list.sort(function(a,b){return (parseInt((b.added_in||'v1').slice(1))-parseInt((a.added_in||'v1').slice(1)))||a.title.localeCompare(b.title)});
  else list.sort(function(a,b){return score(b)-score(a)||a.title.localeCompare(b.title)});
- var def=isDefault();if(def)list=START.concat(list.filter(function(r){return !seenS[r.url]}));
- var shown=(!showAll&&list.length>LIMIT)?list.slice(0,LIMIT):list,cut=shown.length<list.length;
- $('#count').innerHTML=cut?(def?'<strong>Start here:</strong> '+LIMIT+' top picks for new students · '+PUB.length+' resources in total':'Showing '+LIMIT+' of '+list.length+' matching resources'):esc(list.length+' of '+PUB.length+' resources');
- $('#grid').innerHTML=shown.length?shown.map(function(r){return card(r)}).join(''):'<div class="empty">No resources match. Try clearing a filter.</div>';
- $('#showAllWrap').hidden=!cut;$('#showAll').textContent=def?'Show all '+list.length+' resources':'Show all '+list.length+' matching';}
-$('#showAll').onclick=function(){showAll=true;renderExplore();var c=$$('#grid .card h3 a')[LIMIT];if(c)c.focus()};
-/* pick-your-path cards */
-var PATHS={ohs:{track:'OHS'},cm:{track:'CM'},train:{tags:['Training & Certification'],acc:'Free'}};
-function pathState(o){var n=JSON.parse(JSON.stringify(DEF));for(var k in o)n[k]=JSON.parse(JSON.stringify(o[k]));return n}
-function pathCount(k){var save=st;st=pathState(PATHS[k]);var n=PUB.filter(match).length;st=save;return n}
-$$('[data-pcount]').forEach(function(el){var k=el.dataset.pcount;el.textContent=k==='pl'?plItems.length:pathCount(k)});
-function applyExplore(o){st=pathState(o);$('#q').value='';$('#stage').value='0';$('#fmt').value='';$('#acc').value=st.acc;$('#sort').value='rel';
- $$('#track button').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.v===st.track))});
- $$('#chips .chip').forEach(function(b){b.setAttribute('aria-pressed',String(st.tags.indexOf(b.dataset.tag)>-1))});
- $('#favOnly').setAttribute('aria-pressed','false');$('#reqOnly').setAttribute('aria-pressed','false')}
+ $('#count').textContent=list.length+' of '+PUB.length+' resources';
+ $('#grid').innerHTML=list.length?list.map(function(r){return card(r)}).join(''):'<div class="empty">No resources match. Try clearing a filter.</div>'}
 $('#q').addEventListener('input',function(e){st.q=e.target.value.trim();renderExplore()});
 function seg(el,cb){el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;$$('button',el).forEach(function(x){x.setAttribute('aria-pressed',String(x===b))});cb(b.dataset.v)})}
 seg($('#track'),function(v){st.track=v;renderExplore()});
@@ -2416,8 +2365,7 @@ function closeDlg(){dlg.close();if(lastFocus)lastFocus.focus()}
 $('#dlgCopy').onclick=function(){copy(shareUrl)};$('#dlgClose').onclick=closeDlg;
 dlg.addEventListener('click',function(e){if(e.target===dlg)closeDlg()});
 $('#shareHub').onclick=function(){share('Share the OHS & CM Resource Hub',location.href.split('#')[0])};
-document.addEventListener('click',function(e){var b=e.target.closest('[data-fav],[data-copy],[data-share],[data-go],[data-path]');if(!b)return;
- if(b.dataset.path){e.preventDefault();applyExplore(PATHS[b.dataset.path]);go('explore');renderExplore();return}
+document.addEventListener('click',function(e){var b=e.target.closest('[data-fav],[data-copy],[data-share],[data-go]');if(!b)return;
  if(b.dataset.go){e.preventDefault();go(b.dataset.go);return}
  if(b.dataset.copy){copy(b.dataset.copy);return}
  if(b.dataset.share){var r=R.filter(function(x){return x.id===b.dataset.share})[0];share(r.title,r.url);return}
@@ -2439,7 +2387,7 @@ function go(v,noscroll){if(VIEWS.indexOf(v)<0)v='explore';
  if(!rendered[v]){RENDER[v]();rendered[v]=1}
  var tb=$('#tabs'),at=$('.tab[data-view="'+v+'"]');if(tb&&at&&tb.scrollWidth>tb.clientWidth)tb.scrollLeft=Math.max(0,at.offsetLeft-tb.offsetLeft-(tb.clientWidth-at.offsetWidth)/2);tabHint();
  if(location.hash!=='#'+v&&history.replaceState)history.replaceState(null,'','#'+v);
- if(!noscroll){var pe=$('#paths');window.scrollTo(0,pe.offsetTop+pe.offsetHeight)}}
+ if(!noscroll){var hero=$('.hero');window.scrollTo(0,hero.offsetHeight)}}
 /* mobile tab bar: fade + arrow hints when more sections are off-screen */
 var tsc=$('#tabscroll');
 function tabHint(){var tb=$('#tabs'),max=tb.scrollWidth-tb.clientWidth;tsc.classList.toggle('more-r',max>2&&tb.scrollLeft<max-2);tsc.classList.toggle('more-l',max>2&&tb.scrollLeft>2)}
